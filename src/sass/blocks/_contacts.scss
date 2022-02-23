@@ -1,0 +1,26 @@
+.contacts {
+    padding: 20px 0 16px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+    }
+    &__descr {
+        margin-left: 11px;
+    }
+    &__title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        color: #242424;
+    }
+    &__subtitle, a {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 300;
+        color: #242424;
+    }
+    
+}
